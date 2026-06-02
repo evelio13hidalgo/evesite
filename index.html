@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evelio // Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Scanline overlay -->
+  <div class="scanlines"></div>
+
+  <!-- Nav -->
+  <nav>
+    <span class="nav-logo">&gt; evelio<span class="blink">_</span></span>
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-label">// hello world</p>
+      <h1 class="glitch" data-text="EVELIO HIDALGO">EVELIO HIDALGO</h1>
+      <p class="hero-sub">software developer &amp; builder</p>
+      <div class="hero-terminal">
+        <span class="prompt">$</span>
+        <span id="typewriter"></span><span class="blink">|</span>
+      </div>
+      <a href="#projects" class="btn">view projects</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">//</span> about.me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I build things for the web and beyond. Passionate about clean code,
+            interesting problems, and software that actually works.
+          </p>
+          <p>
+            When I'm not coding I'm exploring new tools, tinkering with hardware,
+            or chasing the next rabbit hole.
+          </p>
+        </div>
+        <div class="about-skills">
+          <p class="skills-label">// stack</p>
+          <ul class="skills-list">
+            <li><span class="accent">&gt;</span> HTML / CSS / JS</li>
+            <li><span class="accent">&gt;</span> Python</li>
+            <li><span class="accent">&gt;</span> Git &amp; Linux</li>
+            <li><span class="accent">&gt;</span> Raspberry Pi</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">//</span> projects</h2>
+      <div class="projects-grid">
+
+        <!-- ========================
+             ADD YOUR PROJECTS HERE
+             Copy one .project-card block and paste it below.
+             ======================== -->
+
+        <div class="project-card">
+          <div class="card-header">
+            <span class="card-tag">web</span>
+            <span class="card-status online">live</span>
+          </div>
+          <h3 class="card-title">Portfolio Site</h3>
+          <p class="card-desc">
+            This very portfolio — dark retro design, pure HTML/CSS/JS,
+            hosted on GitHub Pages.
+          </p>
+          <div class="card-links">
+            <a href="#" class="card-btn">[ source ]</a>
+            <a href="#" class="card-btn">[ demo ]</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="card-header">
+            <span class="card-tag">python</span>
+            <span class="card-status wip">wip</span>
+          </div>
+          <h3 class="card-title">Project Two</h3>
+          <p class="card-desc">
+            Short description of what this project does and why it's interesting.
+            Keep it to two or three sentences.
+          </p>
+          <div class="card-links">
+            <a href="#" class="card-btn">[ source ]</a>
+            <a href="#" class="card-btn">[ demo ]</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="card-header">
+            <span class="card-tag">hardware</span>
+            <span class="card-status online">live</span>
+          </div>
+          <h3 class="card-title">Project Three</h3>
+          <p class="card-desc">
+            Short description of what this project does and why it's interesting.
+            Keep it to two or three sentences.
+          </p>
+          <div class="card-links">
+            <a href="#" class="card-btn">[ source ]</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container contact-wrap">
+      <h2 class="section-title"><span class="accent">//</span> contact</h2>
+      <p class="contact-sub">let's build something together</p>
+      <div class="contact-links">
+        <a href="mailto:evelio13hidalgo@gmail.com" class="contact-link">
+          <span class="accent">&gt;</span> email
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener" class="contact-link">
+          <span class="accent">&gt;</span> github
+        </a>
+        <a href="https://linkedin.com/" target="_blank" rel="noopener" class="contact-link">
+          <span class="accent">&gt;</span> linkedin
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 evelio hidalgo &nbsp;|&nbsp; built with &#60;3 &amp; caffeine</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
