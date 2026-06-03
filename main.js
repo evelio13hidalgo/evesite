@@ -4,6 +4,7 @@ const phrases = [
   'open to opportunities',
   'coffee.exe running...',
   'git push origin main',
+  'miami nights, neon code...',
   'always learning.',
 ];
 
@@ -44,7 +45,7 @@ const observer = new IntersectionObserver(entries => {
     if (entry.isIntersecting) {
       navLinks.forEach(a => {
         a.style.color = a.getAttribute('href') === '#' + entry.target.id
-          ? 'var(--green)'
+          ? 'var(--cyan)'
           : '';
       });
     }
