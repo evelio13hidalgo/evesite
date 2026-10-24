@@ -1,3 +1,8 @@
+/* Portfolio page behaviour — two independent effects:
+     1. the typewriter line in the hero terminal
+     2. highlighting the nav link for whichever section is on screen
+   Small enough to stay one file; both run as soon as the script loads. */
+
 // Typewriter in hero terminal
 const phrases = [
   'building cool things...',
